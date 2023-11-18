@@ -1,0 +1,30 @@
+head{
+    
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+section {
+    margin-bottom: 20px;
+}
