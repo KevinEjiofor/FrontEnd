@@ -1,23 +1,36 @@
-head{
-    
-}
+@import url('https://fonts.cdnfonts.com/css/inter');
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    margin: 20px;   
 }
 
-h1 {
-    color: #333;
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 100px;
+}
+
+.header-page {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 img {
-    width: 200px;
+    max-width: 300px;
     height: auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    display: block; 
+    margin: 0 auto; 
+    padding: 40px 0px;
+    
 }
 
 hr {
-    border: 1px solid #ddd;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
     margin-top: 20px;
 }
 
@@ -26,5 +39,45 @@ p {
 }
 
 section {
+    display: block;
     margin-bottom: 20px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 60px; 
+    gap: 10px;
+    margin: 20px;
+}
+
+.bio-info {
+    display: flex;
+    flex-direction: row;
+    margin: 20px; 
+    max-width: 500px; 
+    white-space: pre-line; 
+    margin-bottom: 10px;
+}
+
+.skill{
+    gap: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.programming-language{
+    display: flex;
+    flex-direction: column; 
+
+}
+.programming-container{
+    display: flex;
+    flex-direction: row;
+
+    margin: 0px;
+    gap: 20px;
+    
+}
+.header{
+    font-weight: bolder ;
 }
